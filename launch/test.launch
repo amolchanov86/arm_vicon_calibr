@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="arm_estimate_hand_load" type="estimate_load" name="estimate_load" output="screen">
+    <rosparam command="load" file="$(find arm_estimate_hand_load)/config/estimate_load_in_hand.yaml" />
+    </node>
+</launch>

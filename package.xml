@@ -1,0 +1,43 @@
+<package>
+  <name>arm_vicon_calibr</name>
+  <version>1.0.0</version>
+  <description>
+    Estimation static transformation betweenn vicon and the arm robot
+  </description>
+  <maintainer email="molchano@usc.edu">Artem Molchanov</maintainer>
+  <license>BSD</license>
+
+  <url>http://ros.org/wiki/arm_vicon_calibr</url>
+  <author>Artem Molchanov</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>usc_utilities</build_depend>
+  <build_depend>sl_controller_interface</build_depend>
+<!--   <build_depend>arm_planning_interface</build_depend> -->
+  <build_depend>eigen</build_depend>
+  <build_depend>arm_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>arm_msgs</run_depend>
+  <run_depend>usc_utilities</run_depend>
+  <run_depend>sl_controller_interface</run_depend>
+<!--   <run_depend>arm_planning_interface</run_depend> -->
+  <run_depend>eigen</run_depend>
+  <run_depend>tf</run_depend>  
+  <run_depend>tf_conversions</run_depend>  
+  <run_depend>visualization_msgs</run_depend>
+
+</package>
